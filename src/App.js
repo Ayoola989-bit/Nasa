@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './App.css';
 import axios from 'axios';
 import ImageGrid from './ImageGrid';
-import ImageItem from './ImageItem';
+
 
 const SearchImage = () => {
   const [query, setQuery] = useState("");
